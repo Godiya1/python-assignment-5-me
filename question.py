@@ -118,7 +118,49 @@ output = """
    |   enter "register" to register        |
    *---------------------------------------*
 
-"""
+
 command = input(output)
 
 # Your implementation here...
+"""
+
+command = input("Enter command('login'/'register'/exit):")
+login = input("Enter your user_name:")
+password = input("Enter your password:")
+print(command)
+print(">"*10)
+print("welcome to our application!")
+print("please follow the instructions bellow to get started:")
+print("1. register an accountor log in.")
+print("2. choose an option from the menu.")
+print("3. follow any on-screen promts.")
+print("<"*10)
+input("press enter to continue...")
+
+   
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
